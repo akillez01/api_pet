@@ -1,3 +1,4 @@
+def coletar_informacoes_pet():
     nome = input("Nome do pet: ")
 
     while True:
@@ -25,4 +26,6 @@
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
 
+# Chamada da função
 coletar_informacoes_pet()
+
